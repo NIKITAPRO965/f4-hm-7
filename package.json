@@ -1,0 +1,33 @@
+{
+  "name": "f4-hm-7",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /f4-hm-7/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NIKITAPRO965/f4-hm-7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NIKITAPRO965/f4-hm-7/issues"
+  },
+  "homepage": "https://github.com/NIKITAPRO965/f4-hm-7#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.4",
+    "parcel-transformer-handlebars": "^1.0.0"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-transformer-hbs": "^1.0.4"
+  }
+}
