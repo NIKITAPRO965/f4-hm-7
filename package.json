@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/NIKITAPRO965/f4-hm-7/issues"
   },
-  "homepage": "https://github.com/NIKITAPRO965/f4-hm-7#readme",
+  "homepage": "https://nikitapro965.github.io/f4-hm-7/",
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "parcel": "^2.16.4",
